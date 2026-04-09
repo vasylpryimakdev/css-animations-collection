@@ -94,11 +94,11 @@ body {
   transition: 0.5s;
 }
 
-.btn:hover::before {
+.grid-item:hover .btn::before {
   transform: translateX(100%);
 }
 
-.btn:hover {
+.grid-item:hover .btn{
   box-shadow: 0 10px 25px rgba(168, 85, 247, 0.4);
 }
 
